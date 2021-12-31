@@ -1,4 +1,4 @@
-# High Time Resolution Universe Pulsar Survey Sample Analysis Using K Nearest Neighbors
+# Project 1: High Time Resolution Universe Pulsar Survey Sample Analysis Using K Nearest Neighbors
 
   Pulsars are very rapidly rotating neutron stars which emit beams of electromagnetic radiation from their magnetic poles. This results in "pulses" in the radio spectrum when seen from Earth. General relativity and alternative theories of gravity can be tested with these massive, compact objects. 
   Data (HTRU2) was obtained from the the High Time Resolution Universe South Low Latitude (HTRU-S LowLat) pulsar survey, conducted with the Parkes 64-m Radio Telescope in Australia. Candidate signsls are averaged over many rotations of the pulsar, which is determined by the length of an observation. These signals are mainly composed of RFI noise, making the discovery of real pulsars difficult. 
