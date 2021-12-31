@@ -1,4 +1,4 @@
-# 
+# Data science portfolio showcasing unique machine learning projects using Python. 
 
 # [Project 1: High Time Resolution Universe Pulsar Survey Sample Analysis Using K Nearest Neighbors](https://github.com/dantrez/dantrez_projects/blob/main/High%20Time%20Resolution%20Universe%20Pulsar%20Survey%20Sample%20Analysis%20Using%20K-Nearest%20Neighbors.ipynb)
   Pulsars are very rapidly rotating neutron stars which emit beams of electromagnetic radiation from their magnetic poles. This results in "pulses" in the radio spectrum when seen from Earth. General relativity and alternative theories of gravity can be tested with these massive, compact objects. 
