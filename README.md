@@ -16,4 +16,22 @@ Citation:
 
 R. J. Lyon, B. W. Stappers, S. Cooper, J. M. Brooke, J. D. Knowles, Fifty Years of Pulsar Candidate Selection: From simple filters to a new principled real-time classification approach, Monthly Notices of the Royal Astronomical Society 459 (1), 1104-1123, DOI: 10.1093/mnras/stw656 
 
-# Project 2
+# [Project 2: Artificial Neural Network for Classification and Inspection of SDSS Dataset with Stars, Galaxies, and Quasars]()
+The Sloan Digital Sky Survey uses a dedicated 2.5 m wide-angle optical telescope in New Mexico, United States, to conduct spectroscopic surveys started in 1998. The dataset used in this model is the 16th, released after August 2018. Astrophysicists of the Sloan Digital Sky Survey published the largest, most detailed 3D map of the universe so far, filled a gap of 11 billion years in its expansion history, and provided data which supports the theory of a flat geometry of the universe. It confirms that different regions seem to be expanding at different speeds.
+  Each row of CCD has a different optical filter with average wavelengths for u, g, r, i, z bands.
+
+Summary:
+
+  Data cleaning (cleansing) was performed initially, with the "class" column moved into the last column. An optimization-based approach was augmented to handle missing values with the Python SimpleImputer. Mandatory Feature Scaling (for voluminous SDSS data in a neural network) resulted in a convergence of the weights for improved performance. LabelEncoder transformed the dependent variables into dummy variables with the one hot encoding process.  
+  Observations fit a Gaussian distribution (bell curve) with a well behaved mean and standard deviation. Seaborn data analysis was performed. Pairplots showed correlations or lack thereof and an interactive 3D surface plot was provided to explore interactions amongst the different filter curves of u, g, r, i, and z bands.
+  A SELU activation function was utilized in the first layer, resulting in a slightly improved accuracy over Rectified Linear, Sigmoid, . SELU multiplies scale to ensure a slope greater than 1 for positive inputs. Softmax was used as the activation for the last layer of a classification network as the result could be interpreted as a probability distribution. It is computed as exp(x) / tf.reduce_sum(exp(x)). 
+  Nadam optimization is an improved-upon version of Adam, employing Nesterov momentum. It improved epochal accuracy by approximately .015 per cent.
+
+  Overall performance of this simplified neural network is comparable to that of random forest, multiple logistic regression, or decision tree. Test accuracy of 98.77% and 3X3 confusion matrix scored 19,755 correct predictions out of 20,000 objects. Because of noise and the difficult spectroscopic boundaries inherent in astronomy and the pointlike or extended (galaxy) objects observed, Increasing the number of nodes
+in a layer, adjusting the optimizer, and epoch adaption resulted in a well-performing model useful for classification studies. 
+
+Citations:
+
+    Funding for the Sloan Digital Sky Survey (SDSS) has been provided by the Alfred P. Sloan Foundation, the Participating Institutions, the National Aeronautics and Space Administration, the National Science Foundation, the U.S. Department of Energy, the Japanese Monbukagakusho, and the Max Planck Society. The SDSS Web site is http://www.sdss.org/.
+
+    The SDSS is managed by the Astrophysical Research Consortium (ARC) for the Participating Institutions. The Participating Institutions are The University of Chicago, Fermilab, the Institute for Advanced Study, the Japan Participation Group, The Johns Hopkins University, Los Alamos National Laboratory, the Max-Planck-Institute for Astronomy (MPIA), the Max-Planck-Institute for Astrophysics (MPA), New Mexico State University, University of Pittsburgh, Princeton University, the United States Naval Observatory, and the University of Washington.
