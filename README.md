@@ -16,7 +16,7 @@ Citation:
 
 R. J. Lyon, B. W. Stappers, S. Cooper, J. M. Brooke, J. D. Knowles, Fifty Years of Pulsar Candidate Selection: From simple filters to a new principled real-time classification approach, Monthly Notices of the Royal Astronomical Society 459 (1), 1104-1123, DOI: 10.1093/mnras/stw656 
 
-# [Project 2: Artificial Neural Network for Classification and Inspection of SDSS Dataset with Stars, Galaxies, and Quasars](https://github.com/dantrez/dantrez_projects)
+# [Project 2: Artificial Neural Network for Classification and Inspection of SDSS Dataset with Stars, Galaxies, and Quasars](https://github.com/dantrez/dantrez_projects/blob/main/ANN%20SDSS%20Astronomy%20Classification%20Model%20of%20Quasar%20Stars%20and%20Galaxies.ipynb)
 The Sloan Digital Sky Survey uses a dedicated 2.5 m wide-angle optical telescope in New Mexico, United States, to conduct spectroscopic surveys started in 1998. The dataset used in this model is the 16th, released after August 2018. Astrophysicists of the Sloan Digital Sky Survey published the largest, most detailed 3D map of the universe so far, filled a gap of 11 billion years in its expansion history, and provided data which supports the theory of a flat geometry of the universe. It confirms that different regions seem to be expanding at different speeds.
   Each row of CCD has a different optical filter with average wavelengths for u, g, r, i, z bands.
 
