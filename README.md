@@ -40,4 +40,5 @@ Citation:
     
 ![](https://github.com/dantrez/dantrez_projects/blob/main/images/699444main_QSO.jpg?raw=true)
 
-# [Project 3: Exploratory Data Analysis (EDA) Using Financial Data In A Portfolio]
+# [Project 3: Exploratory Data Analysis (EDA) Using Financial Data In A Portfolio](https://github.com/dantrez/dantrez_projects/blob/main/Exploratory%20Data%20Analysis%20(EDA)%20Using%20Financial%20Data%20In%20A%20Portfolio.ipynb)
+
