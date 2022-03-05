@@ -41,5 +41,40 @@ Citation:
 ![](https://github.com/dantrez/dantrez_projects/blob/main/images/699444main_QSO.jpg?raw=true)
 
 # [Project 3: Exploratory Data Analysis (EDA) Using Financial Data In A Portfolio](https://github.com/dantrez/dantrez_projects/blob/main/Exploratory%20Data%20Analysis%20(EDA)%20Using%20Financial%20Data%20In%20A%20Portfolio.ipynb)
+ A useful template for financial portfolio analysis, this model highlights the following core analyses:
+
+ 
+
+Standard deviation
+
+CAPM
+
+Sharpe Ratio
+
+Mean Returns
+
+Bollinger Bands
+
+Portfolio diversification
+
+Risk analysis
+
+Correlation and covariance
+
+ 
+
+  Because of the scope and nature of stock and fund data, real-time data gathering was used whenever possible. This reduced data cleaning (cleansing) significantly yet NaN values were replaced with a mean.
+
+  Given a mathematical basis in order to determine risk, a standard deviation assumes the higher the risk, the more potential reward and provides a quantified estimate of the uncertainty of future returns. Financial time series are known to be non-stationary, whereas the statistical calculations such as standard deviation apply only to stationary series.
+
+  Risk measurement and standard financial management strategies can include the Sharpe Ratio which is derived from the previous version called ex-ante Sharpe Ratio. The ratio is computed by differences between the returns of the investment and the risk-free return, divided by the standard deviation of the investment returns. It represents the additional amount of return that an investor receives per unit of increase in risk. Sharpe ratios, along with Treynor ratios and Jensen's alphas, can rank the performance of portfolio or mutual fund managers.
+
+  CAPM, or otherwise known as Capital Asset Pricing Model, makes use of the security market line (SML) and its relation to expected return and systematic risk (beta) to show how the market must price individual securities in relation to their security risk class. The SML enables calculations of reward-to-risk for any security in relation to that of the overall market.
+
+  Further, Bollinger Bands displays a graphical band (the envelope maximum and minimum of moving averages) and volatility (expressed by the width of the envelope) in one two-dimensional chart. This included graph exhibits graphical analysis of selected stocks to compare and contrast in a diversified portfolio setting. By tuning the parameters to a particular asset for a particular market environment, the out-of-sample trading signals can be improved compared to the default parameters.
+
+  Because this model's time-series is stationary (start, end times), correlation and covariance mathematical constructs are similar in describing the degree to which two random variables (or sets of random variables) tend to deviate from their expected values.
+
+  Note: this tool is not intended to provide financial advice and investors should always consult a professional regarding investments.
 
 ![](https://github.com/dantrez/dantrez_projects/blob/main/images/bollinger.jpg?raw=true)
