@@ -79,7 +79,7 @@ Correlation and covariance
 
 ![](https://github.com/dantrez/dantrez_projects/blob/main/images/bollinger.jpg?raw=true)
 
-# [Project 4: NLP Sentiment Analysis of Hotel Reviews Using NLTK  and VADER](https://.ipynb)
+# [Project 4: NLP Sentiment Analysis of Hotel Reviews Using NLTK  and VADER](https://github.com/dantrez/dantrez_projects/blob/main/NLP%20Sentiment%20Analysis%20of%20Hotel%20Reviews%20Using%20NLTK%20%20and%20VADER.ipynb)
   Natural Language Processing, or NLP in this form of Sentiment Analysis, is the supervised learning computational treatment of opinions, sentiments and subjectivity of text performed by a machine learning model. Recently instituted algorithms, methods, and enhancements are investigated and presented briefly in this model. Document-level Sentiment Analysis aims to classify an opinion as a summary. In addition, easy-reference of the data is provided in the model itself. 
 
   The cleansed (cleaned) dataset supplied provides a large sample of 20,491 Trip Advisor hotel reviews comprising one column and a scoring of 1-5 for each record in the other, with 5 being a positive score. An investigative analysis of text data is done to assist an organization to make data-driven decisions. 
