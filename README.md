@@ -98,3 +98,6 @@ Noise will be reduced and the results provided on the information retrieval proc
   Summary
 
   The model shows an overall positive sentiment for the hotel studied. The relative "mood", from the deeper compound and 1-5 ratings scale combined, show favorable conditions for a traveller in the single hotel studied.  
+  
+![](https://github.com/dantrez/dantrez_projects/blob/main/images/sentiment%20analysis%20graphic.jpg?raw=true)
+
