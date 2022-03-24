@@ -78,3 +78,23 @@ Correlation and covariance
   Note: this tool is not intended to provide financial advice and investors should always consult a professional regarding investments.
 
 ![](https://github.com/dantrez/dantrez_projects/blob/main/images/bollinger.jpg?raw=true)
+
+# [Project 4: NLP Sentiment Analysis of Hotel Reviews Using NLTK  and VADER](https://.ipynb)
+  Natural Language Processing, or NLP in this form of Sentiment Analysis, is the supervised learning computational treatment of opinions, sentiments and subjectivity of text performed by a machine learning model. Recently instituted algorithms, methods, and enhancements are investigated and presented briefly in this model. Document-level Sentiment Analysis aims to classify an opinion as a summary. In addition, easy-reference of the data is provided in the model itself. 
+
+  The cleansed (cleaned) dataset supplied provides a large sample of 20,491 Trip Advisor hotel reviews comprising one column and a scoring of 1-5 for each record in the other, with 5 being a positive score. An investigative analysis of text data is done to assist an organization to make data-driven decisions. 
+
+  The model is rule-based, using the Python 3 Pandas, Matplotlib, and Numpy. In addition, NLTK (Natural Language ToolKit) is the de facto standard platform for building Python programs to work with human language data. It contains easy-to-use interfaces to many corpora and lexical resources such as WordNet, along with a suite of text processing libraries for classification, tokenization, stemming, tagging, parsing, and semantic reasoning. 
+
+  NLTK supplies "stopwords", which are very common words that appear in the text carrying little meaning; they serve only a syntactic function but do not indicate subject matter. These are eliminated from the model to provide more efficiency.
+
+  Stemming algorithms work by cutting off the end or the beginning of the word, taking into account a list of common prefixes and suffixes that can be found in an inflected word.  NLTK uses PorterStemmer; rules contained in this algorithm are divided in five different phases numbered from 1 to 5. The purpose of these rules is to reduce the words to the root.
+Noise will be reduced and the results provided on the information retrieval process will be more accurate.
+
+  Naïve Bayes is a probabilistic machine learning algorithm based on the Bayes Theorem, used in a wide variety of classification tasks. The classifier assumes that the presence of a particular feature in a class is unrelated to the presence of any other features that are inherently codependent on one another. Multinomial Naïve Bayes, Gaussian, and the Bernoulli Naïve Bayes using Scikit Learn are three variations. The Multinomial Naive Bayes algorithm (MultinomialNB) used here implements the Naive Bayes algorithm for multinomial distributed data. MultinomialNB suits our purposes as the data are typically represented as word vector counts. 
+
+  VADER (Valence Aware Dictionary and sEntiment Reasoner) is a lexicon and rule-based sentiment analysis tool that is specifically attuned to sentiments expressed in social media. The latest update incorporated refactoring for Python 3 compatibility, improved modularity, and fused into NLTK. A valance score was added to the model to further assist in the scoring of data. It can be noted Rating did not correlate well with the sentiment from this social media accumulation. For example, a Rating of 1 coupled with a POSITIVE sentiment in contradiction. This is where VADER shows a more comprehensive study of the single record. 
+
+  Summary
+
+  The model shows an overall positive sentiment for the hotel studied. The relative "mood", from the deeper compound and 1-5 ratings scale combined, show favorable conditions for a traveller in the single hotel studied.  
