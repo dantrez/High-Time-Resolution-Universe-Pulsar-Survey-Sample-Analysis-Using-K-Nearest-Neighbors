@@ -101,5 +101,8 @@ Noise will be reduced and the results provided on the information retrieval proc
   
 ![](https://github.com/dantrez/dantrez_projects/blob/main/images/sentiment%20analysis%20graphic.jpg?raw=true)
 
-# [Project 5: Association Rule Data Mining Basket Analysis Calculations And Analysis Using FPGrowth]
+# [Project 5: Association Rule Data Mining Basket Analysis Calculations And Analysis Using FPGrowth](https://github.com/dantrez/dantrez_projects/blob/main/Association%20Rule%20Data%20Mining%20Basket%20Analysis%20Calculations%20And%20Analysis%20Using%20FPGrowth.ipynb)
+
+![](https://github.com/dantrez/dantrez_projects/blob/main/images/sentiment%20analysis%20graphic.jpg?raw=true)
+
 
