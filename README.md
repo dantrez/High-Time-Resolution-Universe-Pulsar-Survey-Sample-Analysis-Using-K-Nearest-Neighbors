@@ -102,7 +102,19 @@ Noise will be reduced and the results provided on the information retrieval proc
 ![](https://github.com/dantrez/dantrez_projects/blob/main/images/sentiment%20analysis%20graphic.jpg?raw=true)
 
 # [Project 5: Association Rule Data Mining Basket Analysis Calculations And Analysis Using FPGrowth](https://github.com/dantrez/dantrez_projects/blob/main/Association%20Rule%20Data%20Mining%20Basket%20Analysis%20Calculations%20And%20Analysis%20Using%20FPGrowth.ipynb)
+  As one of the first applications of data mining, Market Basket Analysis identifies items that typically occur together in purchase transactions. 
+Of most interest is the discovery of unexpected associations, which may open new avenues for marketing or research. Further, the discovery of sequential patterns, i.e. sequences of errors or warnings that precede an equipment failure may be used to schedule preventative maintenance or may provide insight into a design flaw. 
 
-![](https://github.com/dantrez/dantrez_projects/blob/main/images/sentiment%20analysis%20graphic.jpg?raw=true)
+  Preprocessing included the cleaning (cleansing) of the dataset by means of converting the dataset to a list of transactions with no header columns and initializing it to an empty list. It was then sequentially populated up to 20 transactions for each transaction record, spanning 7500 records in total.
+
+  FPGrowth and mlxtend libraries were specifically utilized to develop association rules which indicate the combinations of factors most commonly observed in retail purchases. FPGrowth finds patterns that frequently occur in a dataset in an association rule mining setting. Cross-marketing, catalog design, sale campaign analysis, and DNA sequencing are well suited for this library. 
+
+  One-hot encoding is performed and the list is transformed into an array of True-False tuples. This array of transactions is then converted into a dataframe. 
+
+  Minimum support values are set and can be easily adjusted, depending on use needs. Similarly, association rules thresholds may be easily set with regards to support, confidence, lift, leverage, and conviction.  The support tells us the number of times, or percentage, that the products co-occur. The confidence tells us the probability of the second item being purchased given the first item. The lift gives us the strength of association. Leverage is the difference between the ratio of coverage of both factors correlating and lift is the ratio probability of them, showing the likelihood of the association. 
+
+  For example, the model shows  a setting for lift of 6.0. resulting in the antecedents "eggs, burger sauce" itemset strongly influencing the consequents purchase of "chicken" with a lift value of 9.72. Note how a comprehensive data mining approach can be used in this model by altering the thresholds in this manner. 
+
+![](https://github.com/dantrez/dantrez_projects/blob/main/images/apriori.jpg?raw=true)
 
 
