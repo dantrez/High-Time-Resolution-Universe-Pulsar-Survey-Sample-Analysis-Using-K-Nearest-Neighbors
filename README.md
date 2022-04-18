@@ -1,4 +1,26 @@
-# [Project 1: High Time Resolution Universe Pulsar Survey Sample Analysis Using K Nearest Neighbors](https://github.com/dantrez/dantrez_projects/blob/main/High%20Time%20Resolution%20Universe%20Pulsar%20Survey%20Sample%20Analysis%20Using%20K-Nearest%20Neighbors.ipynb)
+# [Project 1: Pix2Pix DCGAN CNN for Image-to-Image Translation of Satellite Images to Google Maps Images](https://github.com/dantrez/dantrez_projects/blob/main/Association%20Rule%20Data%20Mining%20Basket%20Analysis%20Calculations%20And%20Analysis%20Using%20FPGrowth.ipynb)
+
+    This Pix2Pix GAN will train a Deep Convolutional Neural Network (DCGAN) to perform image-to-image translation tasks and will allow for the generation of large images. In this case, it will convert satellite photos to maps. 
+  The model comprises a generator for generating synthetic "map" images from complex satellite imagery. In an adversarial process, the discriminator model will identify "real" from "fake" data before sending the data back to the generator for image improvement. The image must be a plausible generated image; thus the Pix2Pix moniker. It uses L1 loss measurements to consistently refine the target image.
+  Current uses are image-to-image translation tasks such as converting maps to satellite photographs (or vice-versa), black and white photographs to color, and sketches of products to product photographs for artistic rendering or production. 
+  The dataset is comprised of 39 images pairs of New York satellite imagery 1200 pixels wide and 600 pixels tall, cleaned (cleansed). The training image sets were saved in a Numpy array and converted to 256x256 size. The output is dependent on the size of the image and each value is a probability for the likelihood that a patch in the input image is real. These values can be averaged to give an overall likelihood or classification score if needed.
+  The generator is an encoder-decoder model utilizing a U-Net architecture with skip-connections added to avoid overfitting. A downsampling of the input image is sent to a bottleneck, emerging in an output section of equal size. The Tanh activation function is used in the output layer with pixel values in the generated image in the range [-1,1]. 
+  The composite model is updated with two targets: one indicating generated images are real (cross entropy loss), forcing large weight updates in the generator (toward generating more realistic image), and the executed real translation of the image, which is compared against the output of the generator model (L1 loss).
+  The Keras functional API connected the generator and discriminator. The model was saved to generate sample image-to-image translations periodically during training, such as every 10 training epochs. Image quality inspection was used at the end of training to choose a final model. 
+  The number of epochs is set at 100 to keep training times down. A batch size of 1 is used as is recommended in the paper. Training involved a fixed number of training iterations. 
+  The generator was saved and evaluated every 10 epochs.  The training dataset comprised 39 images to keep CPU costs down, resulting in approximately 90 minutes of CPU time on a Ryzen Vega system. 
+  Results show the generated image captures various features well. Due to the random probability nature of running machine learning models, the author's output may vary compared to another user's. 
+
+Citation:
+ 	arXiv:1611.07004 [cs.CV]
+  	(or arXiv:1611.07004v3 [cs.CV] for this version)
+        
+  	
+https://doi.org/10.48550/arXiv.1611.07004
+
+Jason Brownlee, Ph.D.
+
+# [Project 2: High Time Resolution Universe Pulsar Survey Sample Analysis Using K Nearest Neighbors](https://github.com/dantrez/dantrez_projects/blob/main/High%20Time%20Resolution%20Universe%20Pulsar%20Survey%20Sample%20Analysis%20Using%20K-Nearest%20Neighbors.ipynb)
   Pulsars are very rapidly rotating neutron stars which emit beams of electromagnetic radiation from their magnetic poles. This results in "pulses" in the radio spectrum when seen from Earth. General relativity and alternative theories of gravity can be tested with these massive, compact objects. 
   Data (HTRU2) was obtained from the the High Time Resolution Universe South Low Latitude (HTRU-S LowLat) pulsar survey, conducted with the Parkes 64-m Radio Telescope in Australia. Candidate signsls are averaged over many rotations of the pulsar, which is determined by the length of an observation. These signals are mainly composed of RFI noise, making the discovery of real pulsars difficult. 
   Evaluations of the initial survey data, coupled with the performance characteristics of K-Nearest Neighbours are presented in a binary classification solution. The true pulsar examples of the catalog sample encompass a minority positive class (1,639 out of 16,259 total observations) due to radio frequency interference. The independent variables comprise the mean, standard deviation, excess kurtosis and skewness of the integrated profile. Hyperparameter tuning included K-Fold Cross Validation and GridSearchCV (with best parameters for n_neighbors). 
@@ -18,7 +40,7 @@ R. J. Lyon, B. W. Stappers, S. Cooper, J. M. Brooke, J. D. Knowles, Fifty Years 
 
 ![](https://github.com/dantrez/dantrez_projects/blob/main/images/Vela_Pulsar_jet.jpg?raw=true)
 
-# [Project 2: Artificial Neural Network for Classification and Inspection of SDSS Dataset with Stars, Galaxies, and Quasars](https://github.com/dantrez/dantrez_projects/blob/main/ANN%20SDSS%20Astronomy%20Classification%20Model%20of%20Quasar%20Stars%20and%20Galaxies.ipynb)
+# [Project 3: Artificial Neural Network for Classification and Inspection of SDSS Dataset with Stars, Galaxies, and Quasars](https://github.com/dantrez/dantrez_projects/blob/main/ANN%20SDSS%20Astronomy%20Classification%20Model%20of%20Quasar%20Stars%20and%20Galaxies.ipynb)
 The Sloan Digital Sky Survey uses a dedicated 2.5 m wide-angle optical telescope in New Mexico, United States, to conduct spectroscopic surveys started in 1998. The dataset used in this model is the 16th, released after August 2018. Astrophysicists of the Sloan Digital Sky Survey published the largest, most detailed 3D map of the universe so far, filled a gap of 11 billion years in its expansion history, and provided data which supports the theory of a flat geometry of the universe. It confirms that different regions seem to be expanding at different speeds.
   Each row of CCD has a different optical filter with average wavelengths for u, g, r, i, z bands.
 
@@ -40,7 +62,7 @@ Citation:
     
 ![](https://github.com/dantrez/dantrez_projects/blob/main/images/699444main_QSO.jpg?raw=true)
 
-# [Project 3: Exploratory Data Analysis (EDA) Using Financial Data In A Portfolio](https://github.com/dantrez/dantrez_projects/blob/main/Exploratory%20Data%20Analysis%20(EDA)%20Using%20Financial%20Data%20In%20A%20Portfolio.ipynb)
+# [Project 4: Exploratory Data Analysis (EDA) Using Financial Data In A Portfolio](https://github.com/dantrez/dantrez_projects/blob/main/Exploratory%20Data%20Analysis%20(EDA)%20Using%20Financial%20Data%20In%20A%20Portfolio.ipynb)
  A useful template for financial portfolio analysis, this model highlights the following core analyses:
 
  
@@ -79,7 +101,7 @@ Correlation and covariance
 
 ![](https://github.com/dantrez/dantrez_projects/blob/main/images/bollinger.jpg?raw=true)
 
-# [Project 4: NLP Sentiment Analysis of Hotel Reviews Using NLTK  and VADER](https://github.com/dantrez/dantrez_projects/blob/main/NLP%20Sentiment%20Analysis%20of%20Hotel%20Reviews%20Using%20NLTK%20%20and%20VADER.ipynb)
+# [Project 5: NLP Sentiment Analysis of Hotel Reviews Using NLTK  and VADER](https://github.com/dantrez/dantrez_projects/blob/main/NLP%20Sentiment%20Analysis%20of%20Hotel%20Reviews%20Using%20NLTK%20%20and%20VADER.ipynb)
   Natural Language Processing, or NLP in this form of Sentiment Analysis, is the supervised learning computational treatment of opinions, sentiments and subjectivity of text performed by a machine learning model. Recently instituted algorithms, methods, and enhancements are investigated and presented briefly in this model. Document-level Sentiment Analysis aims to classify an opinion as a summary. In addition, easy-reference of the data is provided in the model itself. 
 
   The cleansed (cleaned) dataset supplied provides a large sample of 20,491 Trip Advisor hotel reviews comprising one column and a scoring of 1-5 for each record in the other, with 5 being a positive score. An investigative analysis of text data is done to assist an organization to make data-driven decisions. 
@@ -101,7 +123,7 @@ Noise will be reduced and the results provided on the information retrieval proc
   
 ![](https://github.com/dantrez/dantrez_projects/blob/main/images/sentiment%20analysis%20graphic.jpg?raw=true)
 
-# [Project 5: Association Rule Data Mining Basket Analysis Calculations And Analysis Using FPGrowth](https://github.com/dantrez/dantrez_projects/blob/main/Association%20Rule%20Data%20Mining%20Basket%20Analysis%20Calculations%20And%20Analysis%20Using%20FPGrowth.ipynb)
+# [Project 6: Association Rule Data Mining Basket Analysis Calculations And Analysis Using FPGrowth](https://github.com/dantrez/dantrez_projects/blob/main/Association%20Rule%20Data%20Mining%20Basket%20Analysis%20Calculations%20And%20Analysis%20Using%20FPGrowth.ipynb)
   As one of the first applications of data mining, Market Basket Analysis identifies items that typically occur together in purchase transactions. 
 Of most interest is the discovery of unexpected associations, which may open new avenues for marketing or research. Further, the discovery of sequential patterns, i.e. sequences of errors or warnings that precede an equipment failure may be used to schedule preventative maintenance or may provide insight into a design flaw. 
 
