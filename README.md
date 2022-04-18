@@ -1,5 +1,4 @@
 # [Project 1: Pix2Pix DCGAN CNN for Image-to-Image Translation of Satellite Images to Google Maps Images](https://github.com/dantrez/dantrez_projects/blob/main/Pix2Pix%20DCGAN%20CNN%20for%20Image-to-Image%20Translation%20of%20Satellite%20Images%20to%20Google%20Maps%20Images.ipynb)
-
     This Pix2Pix GAN will train a Deep Convolutional Neural Network (DCGAN) to perform image-to-image translation tasks and will allow for the generation of large images. In this case, it will convert satellite photos to maps. 
   The model comprises a generator for generating synthetic "map" images from complex satellite imagery. In an adversarial process, the discriminator model will identify "real" from "fake" data before sending the data back to the generator for image improvement. The image must be a plausible generated image; thus the Pix2Pix moniker. It uses L1 loss measurements to consistently refine the target image.
   Current uses are image-to-image translation tasks such as converting maps to satellite photographs (or vice-versa), black and white photographs to color, and sketches of products to product photographs for artistic rendering or production. 
