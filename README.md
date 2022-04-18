@@ -9,6 +9,9 @@
   The Keras functional API connected the generator and discriminator. The model was saved to generate sample image-to-image translations periodically during training, such as every 10 training epochs. Image quality inspection was used at the end of training to choose a final model. 
   The number of epochs is set at 100 to keep training times down. A batch size of 1 is used as is recommended in the paper. Training involved a fixed number of training iterations. 
   The generator was saved and evaluated every 10 epochs.  The training dataset comprised 39 images to keep CPU costs down, resulting in approximately 90 minutes of CPU time on a Ryzen Vega system. 
+  
+  Summary:
+  
   Results show the generated image captures various features well. Due to the random probability nature of running machine learning models, the author's output may vary compared to another user's. 
 
 Citation:
