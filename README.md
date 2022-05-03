@@ -13,7 +13,7 @@ Affine transformation was performed on the Band4 image to illustrate its typical
 
 Summary: 
 
-Coniferous regions are significantly easier to predict than crop areas due to their homogeneous and regular evolution. Additionally, the examples given show field areas where vegetation was wilting or non-existent, coupled with water, soil, and clouds that do not reflect NIR well. Additionally, high reflectance of NIR results in the images represents intuitive green areas of healthy vegetation (brighter green is better). These bright green areas contains dense, live green vegetation. 
+Coniferous regions are significantly easier to predict than crop areas due to their homogeneous and regular evolution. Additionally, the examples given show field areas where vegetation was wilting or non-existent, coupled with water, soil, and clouds that do not reflect NIR well. Also, high reflectance of NIR results in the images represents intuitive green areas of healthy vegetation (brighter green is better). These bright green areas contains dense, live green vegetation. 
 
 This whole-farm approach to crop analysis can use information technology, satellite positioning data, remote sensing and correlated data gathering in understanding crop yields or ecosystem changes. The latest technological use of advanced artificial intelligence (AI) algorithms coupled with remote sensing can also provide management-zone driven results for: nitrogen, phosphorus, potassium, magnesium, iron and other minerals.  In addition, targeted field analysis, as well as continental or global-scale vegetation can be monitored. 
 
