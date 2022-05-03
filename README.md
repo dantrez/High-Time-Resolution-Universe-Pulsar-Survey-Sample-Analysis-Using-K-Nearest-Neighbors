@@ -17,6 +17,9 @@ Coniferous regions are significantly easier to predict than crop areas due to th
 
 This whole-farm approach to crop analysis can use information technology, satellite positioning data, remote sensing and correlated data gathering in understanding crop yields or ecosystem changes. The latest technological use of advanced artificial intelligence (AI) algorithms coupled with remote sensing can also provide management-zone driven results for: nitrogen, phosphorus, potassium, magnesium, iron and other minerals.  In addition, targeted field analysis, as well as continental or global-scale vegetation can be monitored. 
 
+![](https://github.com/dantrez/dantrez_projects/blob/main/images/NDVI%20composite%20of%20NIR%20and%20RED%20bands%20in%20false%20color-%20lighter%20is%20healthier-.jpg)
+
+
 # [Project 2: Pix2Pix DCGAN CNN for Image-to-Image Translation of Satellite Images to Google Maps Images](https://github.com/dantrez/dantrez_projects/blob/main/Pix2Pix%20DCGAN%20CNN%20for%20Image-to-Image%20Translation%20of%20Satellite%20Images%20to%20Google%20Maps%20Images.ipynb)
  This Pix2Pix GAN will train a Deep Convolutional Neural Network (DCGAN) to perform image-to-image translation tasks and will allow for the generation of large images. In this case, it will convert satellite photos to maps. 
   The model comprises a generator for generating synthetic "map" images from complex satellite imagery. In an adversarial process, the discriminator model will identify "real" from "fake" data before sending the data back to the generator for image improvement. The image must be a plausible generated image; thus the Pix2Pix moniker. It uses L1 loss measurements to consistently refine the target image.
