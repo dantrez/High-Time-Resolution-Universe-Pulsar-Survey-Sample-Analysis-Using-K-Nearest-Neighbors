@@ -17,7 +17,7 @@ Coniferous regions are significantly easier to predict than crop areas due to th
 
 This whole-farm approach to crop analysis can use information technology, satellite positioning data, remote sensing and correlated data gathering in understanding crop yields or ecosystem changes. The latest technological use of advanced artificial intelligence (AI) algorithms coupled with remote sensing can also provide management-zone driven results for: nitrogen, phosphorus, potassium, magnesium, iron and other minerals.  In addition, targeted field analysis, as well as continental or global-scale vegetation can be monitored. 
 
-![](https://github.com/dantrez/dantrez_projects/blob/main/images/NDVI%20composite%20of%20NIR%20and%20RED%20bands%20in%20false%20color-%20lighter%20is%20healthier-.jpg)
+![](https://github.com/dantrez/dantrez_projects/blob/main/images/NDVI%20composite%20of%20NIR%20and%20RED%20bands%20in%20false%20color-%20lighter%20is%20healthier-.jpg?raw=true)
 ![](https://github.com/dantrez/dantrez_projects/blob/main/images/Sample%20image%20of%20NDVI%20-%20zoomed%20false%20color.jpg)
 
 
