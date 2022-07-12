@@ -166,4 +166,8 @@ Of most interest is the discovery of unexpected associations, which may open new
 
 ![](https://github.com/dantrez/dantrez_projects/blob/main/images/apriori.jpg?raw=true)
 
+# [Project 8: Popular Competition for House Prices Results]
 
+  A popular house-buying competition for Data Scientists to learn and utilize creative feature engineering and advanced regression techqniques was attempted. Several regression models, pipelines, and preprocessing attempts were made to fine-tune an acceptable result for the author.
+
+  Submissions were evaluated on Root-Mean-Squared-Error (RMSE) between the logarithm of the predicted value and the logarithm of the observed sales price. It was found that a Ridge-Regression pipeline model worked the best. Preprocessing included an EDA of the dataset, thorough analysis of the inter-relationships of the data, and imputing values while taking into account outliers resulted in the author's personal best RMSE score of .15389 (less is better), which placed at the top 63%. The median value was 12.348.   
