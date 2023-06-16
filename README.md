@@ -166,13 +166,13 @@ Of most interest is the discovery of unexpected associations, which may open new
 
 ![](https://github.com/dantrez/dantrez_projects/blob/main/images/apriori.jpg?raw=true)
 
-# [Project 8: Popular Competition for House Prices Results]
+# Project 8: Popular Competition for House Prices Results
 
   A popular house-buying competition for Data Scientists to learn and utilize creative feature engineering and advanced regression techqniques was attempted. Several regression models, pipelines, and preprocessing attempts were made to fine-tune an acceptable result for the author.
 
   Submissions were evaluated on Root-Mean-Squared-Error (RMSE) between the logarithm of the predicted value and the logarithm of the observed sales price. It was found that a Ridge-Regression pipeline model worked the best. Preprocessing included an EDA of the dataset, thorough analysis of the inter-relationships of the data, and imputing values while taking into account outliers resulted in the author's personal best RMSE score of .15389 (less is better), which placed at the top 63%. The median value was 12.348.   
 
- # [Project 9: Low Income Countries Crop Analysis Using Tableau Dashboard]
+ # Project 9: Low Income Countries Crop Analysis Using Tableau Dashboard
 
    This visualization shows food and agriculture statistics for the world's low-income countries for the period 2019-2021. The source datasets were provided by the Food and Agriculture Organization of the United Nations, providing crop production totals and the resulting values. 
   The yearly output for all countries combined increased from 2019-2020 by 2.93%. From 2020 to 2021, the increase was .8%. This result stems, in part, from swarms of desert locusts ravaging countries across the Greater Horn of Africa, the Arabian Peninsula, and Southwest Asia. Another factor was COVID-19 impacting production and farm families, along with the 2020 Atlantic hurricane season producing 30 storm systems, surpassing the usual 12-storm annual average. Effective Disaster Risk Reduction (DRR) policies can influence agriculatural production systems but are at the mercy of drought, storms, pest, diseases and wildfires. 
