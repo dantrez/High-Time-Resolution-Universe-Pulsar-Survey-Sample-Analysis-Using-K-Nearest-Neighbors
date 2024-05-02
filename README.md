@@ -179,7 +179,7 @@ Of most interest is the discovery of unexpected associations, which may open new
   A map of each country and their resultant 2019-2021 crop totals is given, along with each named crop for a given year. All crops are given although some countries will not produce a given crop, while a country nearby will. For example, South Sudan does not produce sugar cane in measurable amounts, but South Sudan does. 
   This data and visualization is in the interest of assessment of the state of food security and progress towards achieving the hunger and food insecurity targets, progress towards the global nutrition targets defined by the World Health Assembly, and bringing the prevalence of undernourishment, and the prevalence of moderate or severe food insecurity based on the Food Insecurity Experience Scale into light. 
 
-![](https://github.com/dantrez/dantrez_projects/blob/main/images/Low%20Income%20Crops%20Dashboard.jpg)
+![](https://github.com/dantrez/dantrez_projects/blob/main/images/Low%20Income%20Crops%20Dashboard.jpg?raw=true)
 
  # [Project 10: QGIS & Cesium Ion reveal crucial insights for informed site selection and conceptual design decisions](https://github.com/dantrez/dantrez_projects/blob/main/images/Reg%20combo%20OSM%20and%20Ggle.gif)
 
@@ -195,5 +195,7 @@ Overall, leveraging 3D modeling and analysis tools within a GIS framework could 
 #OpenStreetMap
 
 ![](https://github.com/dantrez/dantrez_projects/blob/main/images/Reg%20combo%20OSM%20and%20Ggle.gif?raw=true)
+![](https://github.com/dantrez/dantrez_projects/blob/main/images/Reg%20Measurements.gif?raw=true)
+
 
    
