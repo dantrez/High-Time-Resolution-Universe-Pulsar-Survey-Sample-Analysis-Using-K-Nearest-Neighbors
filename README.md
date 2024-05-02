@@ -172,7 +172,7 @@ Of most interest is the discovery of unexpected associations, which may open new
 
   Submissions were evaluated on Root-Mean-Squared-Error (RMSE) between the logarithm of the predicted value and the logarithm of the observed sales price. It was found that a Ridge-Regression pipeline model worked the best. Preprocessing included an EDA of the dataset, thorough analysis of the inter-relationships of the data, and imputing values while taking into account outliers resulted in the author's personal best RMSE score of .15389 (less is better), which placed at the top 63%. The median value was 12.348.   
 
- # [Project 9: Low Income Countries Crop Analysis Using Tableau Dashboard](https://github.com/dantrez/dantrez_projects/blob/main/Low%20income%20crops%20text.txt)
+ # [Project 9b: Low Income Countries Crop Analysis Using Tableau Dashboard](https://github.com/dantrez/dantrez_projects/blob/main/Low%20income%20crops%20text.txt)
 
    This visualization shows food and agriculture statistics for the world's low-income countries for the period 2019-2021. The source datasets were provided by the Food and Agriculture Organization of the United Nations, providing crop production totals and the resulting values. 
   The yearly output for all countries combined increased from 2019-2020 by 2.93%. From 2020 to 2021, the increase was .8%. This result stems, in part, from swarms of desert locusts ravaging countries across the Greater Horn of Africa, the Arabian Peninsula, and Southwest Asia. Another factor was COVID-19 impacting production and farm families, along with the 2020 Atlantic hurricane season producing 30 storm systems, surpassing the usual 12-storm annual average. Effective Disaster Risk Reduction (DRR) policies can influence agriculatural production systems but are at the mercy of drought, storms, pest, diseases and wildfires. 
@@ -180,3 +180,20 @@ Of most interest is the discovery of unexpected associations, which may open new
   This data and visualization is in the interest of assessment of the state of food security and progress towards achieving the hunger and food insecurity targets, progress towards the global nutrition targets defined by the World Health Assembly, and bringing the prevalence of undernourishment, and the prevalence of moderate or severe food insecurity based on the Food Insecurity Experience Scale into light. 
 
 ![](https://github.com/dantrez/dantrez_projects/blob/main/images/Low%20Income%20Crops%20Dashboard.jpg)
+
+ # [Project 10: QGIS & Cesium Ion reveal crucial insights for informed site selection and conceptual design decisions](https://github.com/dantrez/dantrez_projects/blob/main/images/Reg%20combo%20OSM%20and%20Ggle.gif)
+
+  For a LinkedIn project, I conducted a hypothetical 3D urban analysis, seeking to identify potential sites for a new mixed-use building project. Using an OpenStreetMap layer containing street names and classifications, I was able to orient within the target neighborhood and zoom to potential locations of interest. 
+
+Cesium Ion provided Google's 3D building tiles, enabling an immersive 3D view within QGIS software. This animated 3D Map view allowed for photo-realistic building rendering and fly-through capabilities to assess building massing and blocking characteristics from varying vantage points. 
+
+Street-level, building height, and roof width are a sample of measurements taken for a faux real-estate analysis. 
+
+Overall, leveraging 3D modeling and analysis tools within a GIS framework could provide a client invaluable visual and spatial insights to help inform their site selection and conceptual design decisions.
+
+#GIS #Cartography #RemoteSensing #SpatialAnalysis #DataVisualization #LocationIntelligence #Geodatics #RasterAnalysis #VectorDataManagement #TemporalAnalysis #WebMapping #GeospatialDataProcessing
+#OpenStreetMap
+
+![](https://github.com/dantrez/dantrez_projects/blob/main/images/Reg%20combo%20OSM%20and%20Ggle.gif?raw=true)
+
+   
