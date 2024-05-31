@@ -197,7 +197,7 @@ Overall, leveraging 3D modeling and analysis tools within a GIS framework could 
 ![](https://github.com/dantrez/dantrez_projects/blob/main/images/Reg%20combo%20OSM%20and%20Ggle.gif?raw=true)
 ![](https://github.com/dantrez/dantrez_projects/blob/main/images/Reg%20Measurements.gif?raw=true)
 
-# [Project 11: Animated REM or Detrended Digital Elevation Model (DEM) for flood potential](https:e.gif)
+# [Project 11: Animated REM or Detrended Digital Elevation Model (DEM) for flood potential](https://github.com/dantrez/dantrez_projects/blob/main/images/Animation6.gif?raw=true)
 
   Here is a baseline understanding of a random Canadian river topography area of interest and potential flooding zones. 
 In order to enhance the analysis, features such as low-lying areas, benches, and terraces are in a colored (darker colors signify elevation height) 3D view using high-resolution (1-meter) data. This allows a visualization of the elevations above the riverbed more accurately, helping identify which areas are likely to remain dry during flood events.
