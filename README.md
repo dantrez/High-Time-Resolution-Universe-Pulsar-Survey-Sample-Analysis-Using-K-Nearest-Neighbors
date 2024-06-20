@@ -212,7 +212,7 @@ To visualize the results, a 3D animation was created showing benches, terraces, 
 
   I'm fired up to share the results of my unsupervised image classification project! I used high-resolution aerial NAIP imagery from the USDA as ground truth to classify land cover types in Utah, USA. For this analysis, I tested using a segmentor in an ONNX model called Deepness and used high-res aerial imagery from 2023. This Open Neural Network Exchange has DeepLabV3+ model with tu-semnasnet_100 backend and FocalDice as a loss function. Then we let the machine learn to identify land cover classes all on its own - no supervision required. Our unsupervised model segmented the data into different land cover types. We then used clustering algorithms to group the data into distinct classes like Roads, Buildings, Woodlands, and Water. The model achieved an overall accuracy of 82% compared to ground truth data - not too shabby for zero human supervision! It nailed Buildings with 94% user's accuracy. But it did struggle a bit with Water and Woodlands, only getting 79% producer's accuracy there. This was probably due to confusion with other impervious surfaces. Roads attained a healthy 91%. The key takeaway? Yes, minor supervised edits post-processing is always needed. Unsupervised learning can achieve pretty darn good results without any labeled training data. It's an absolute game-changer, opening the door to automated mapping for areas we've never tackled before. Unsupervised AI can revolutionize how we extract insights from imagery across industries. 
 
-  
+![](https://github.com/dantrez/dantrez_projects/blob/main/images/Unsup_Class.gif)
 
 
    
