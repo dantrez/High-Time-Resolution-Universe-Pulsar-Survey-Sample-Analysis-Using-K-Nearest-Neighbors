@@ -254,4 +254,4 @@ www.linkedin.com/in/dantrezona
 
 #SAR, #RemoteSensing, #GeospatialAnalysis, #ImageProcessing, #Interferometry, #SAR, #LIDAR, #Geodesy, #Satellite, #DataVisualization, #ChangeDetection, #TimeSeriesAnalysis, #EarthObservation, #NaturalResources, #DisasterManagement, #UrbanPlanning
 
-   
+![](https://github.com/dantrez/dantrez_projects/blob/main/images/Popocatepetl%20volcano%20SAR%20FINAL%20-%20Github.gif?raw=true)
