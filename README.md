@@ -214,5 +214,44 @@ To visualize the results, a 3D animation was created showing benches, terraces, 
 
 ![](https://github.com/dantrez/dantrez_projects/blob/main/images/Unsup_Class.gif?raw=true)
 
+# [Project 13: SAR Interferogram Analysis at Popocatepetl Volcano, Mexico City Region from December 2021 ]
+
+  I am pleased and honored today as I delve into the latest insights from my Synthetic Aperture Radar (SAR) interferometric analysis of the Popocatepetl volcanic region near Mexico City. My focus is on two SAR images captured by Sentinel-1, providing us with a window to understand geological changes and potential hazards in this area.
+  
+Image Acquisition:
+
+The data I’m analyzing comprises a pair of Single Complex Sentinel-1 Synthetic Aperture Radar (SAR) imagery acquired over the Popocatepetl volcano. These images were taken on December 7th, 2021; one image was captured two weeks later on December 19th.
+
+Data Processing:
+
+My processing chain utilized SNAP software. 
+1.	Orbit Correction: I applied precise orbit files ensuring the images were accurately aligned in space.
+2.	Coregistration: The pixels within each image set are matched precisely, allowing for exact comparison between corresponding areas of both datasets. 
+3.	Interferogram Generation & Coherence Calculation 
+By multiplying one SAR with its complex conjugate counterpart from the other date, I generated an interferogram. This mathematical operation allowed me to calculate and visualize the coherency, which is a measure of how similar two signals are in phase.
+4.	Topography Phase Subtraction: 
+The topographical elevation differences were subtracted out. By doing so I isolated phases due solely from surface displacement rather than terrain variations. 
+5.	Noise Reduction (Goldstein Filtering):
+I applied the Goldstein filter to minimize noise in my data, ensuring that only meaningful signals are preserved.
+6.	Geometric Correction & Overlay: 
+The final product was geometrically corrected and then overlaid onto an image within Google Earth for better visualization. 
+
+Interferogram Analysis:
+
+Upon reviewing these processed images: 
+1.	Dense Fringes of Deformation - I observe distinct, dense fringes corresponding to areas experiencing deformations or displacements. 
+2.	 Coherence Patterns
+             High coherency is visible in the white regions indicating stable and less disturbed terrains. Conversely, low coherency—appearing darker on my map——indicates more unstable conditions possibly due to vegetation density which can disrupt radar signals.
+         3.Vegetation Influence - The volume scattering from dense vegetation areas contributes significantly towards loss of coherent signal. 
+         4.  Stable Areas
+              I also notice regions with high coherency, indicating stable and less disturbed terrains. These are potential candidates for further detailed analysis or monitoring.
+
+Next Steps:
+
+My preliminary findings suggest the need to perform displacement calculations using unwrapped phases in order to precisely quantify surface movements over time. This will provide a clearer understanding of ongoing geological processes at Popocatepetl volcano, which is crucial information that can inform risk assessments and emergency response strategies for local communities.
+
+www.linkedin.com/in/dantrezona
+
+#SAR, #RemoteSensing, #GeospatialAnalysis, #ImageProcessing, #Interferometry, #SAR, #LIDAR, #Geodesy, #Satellite, #DataVisualization, #ChangeDetection, #TimeSeriesAnalysis, #EarthObservation, #NaturalResources, #DisasterManagement, #UrbanPlanning
 
    
