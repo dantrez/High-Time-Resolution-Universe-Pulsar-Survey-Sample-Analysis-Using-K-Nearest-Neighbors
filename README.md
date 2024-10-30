@@ -255,3 +255,19 @@ www.linkedin.com/in/dantrezona
 #SAR, #RemoteSensing, #GeospatialAnalysis, #ImageProcessing, #Interferometry, #SAR, #LIDAR, #Geodesy, #Satellite, #DataVisualization, #ChangeDetection, #TimeSeriesAnalysis, #EarthObservation, #NaturalResources, #DisasterManagement, #UrbanPlanning
 
 ![](https://github.com/dantrez/dantrez_projects/blob/main/images/Popocatepetl%20volcano%20SAR%20FINAL%20-%20Github.gif?raw=true)
+
+# [Project 14: ﻿Sentinel-2 Unsupervised AI-Crop Classification with Prithvi GFM and QGIS]
+
+  ﻿NASA and IBM have collaborated to develop a Temporal Vision Transformer, an advanced model utilizing extensive satellite data, such as Sentinel-2 HLS data. This project employs dates from June 2, August 1, and October 15, 2017, in the vicinity south of Yankton, South Dakota.
+The Prithvi model is one of the first open-source GFMs trained on time-series high-resolution imagery. It offers flexibility to run at both global and local scales.
+QGIS used an HLS geotiff image derived from Sentinel-2 data, consisting of 18 bands for three time-steps: each time-step includes Blue, Green, Red, Narrow NIR, SWIR, SWIR 2 in order. This setup enabled the Prithvi model to identify various classes, including Natural Vegetation, Forest, Corn, Soybeans, Wetlands, Developed or Barren, Open Water, Winter Wheat, Alfalfa, Idle Cropland, Cotton, Sorghum, and Other.
+
+  Corn (Zea mays) and soybeans (Glycine max) are the predominant crops grown in this region due to their adaptability to local climate conditions and soil types.
+According to the data analysis, the average corn yield in south-central Nebraska was 183.4 bushels per acre, a 10% increase compared to the 5-year average of 166.4 bushels per acre. The average soybean yield in this region was 54.4 bushels per acre, which is 12% higher than the 5-year average of 48.5 bushels per acre. Corn is often used for animal feed, ethanol production, and human consumption, while soybeans are primarily utilized for oil extraction and livestock feed. Crop production is influenced by various factors such as weather conditions, pests and diseases, technological advancements, and market demand, which can cause fluctuations in crop yields and acreage from one year to another.
+Unfortunately, due to limitations with local sampling and data extrapolation using the Prithvi model, I am unable to provide further insights into crop yields for specific areas within this region. 
+
+www.linkedin.com/in/dantrezona
+
+#CropAnalysis, #GIS, #GeospatialAnalysis, #ImageProcessing, #Agriculture, #NDVI, #MachineLearning, #AI, #Python, #TemporalVision, #FoundationModel
+
+![](https://github.com/dantrez/dantrez_projects/blob/main/images/Popocatepetl%20volcano%20SAR%20FINAL%20-%20Github.gif?raw=true)
